@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriepk - Freelance UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function scrollToSection() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">K</div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#services">Works</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero">
+                <h1>Hello, I'm <span>Kris</span></h1>
+                <p>a freelance UI/UX Designer</p>
+                <button class="btn" onclick="scrollToSection()">Let's Talk</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>What actually I can do</h2>
+                <div class="services-list">
+                    <div class="service">
+                        <h3>UX Research</h3>
+                        <p>New demos are continually added, some of them would be under this container</p>
+                    </div>
+                    <div class="service">
+                        <h3>Brand Design</h3>
+                        <p>New demos are continually added, some of them would be under this container</p>
+                    </div>
+                    <div class="service">
+                        <h3>Web Development</h3>
+                        <p>New demos are continually added, some of them would be under this container</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>All Creative Projects</h2>
+                <a href="index(1).html" class="btn">Explore</a>
+                <div class="projects-list">
+                    <!-- Add project items here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Adam Zakob. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
